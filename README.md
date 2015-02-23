@@ -32,7 +32,7 @@ To make your coding less painful, you want a decent editor. Features to look for
 
 I use **Komodo Edit**, which I can recommend. **Notepad++** is another (more lightweight). 
 
-Ok, so got one?  Paste the following into it, and save it as
+Ok, so got one?  Paste the following into it, and save it as `anything.js` (so that the editor knows it's JavaScript).
 
 ```js
 var first_name = "John";
@@ -65,5 +65,10 @@ Will create a new folder called `WebTechCrashCourse`, containing this project.
 
 **Apache2** is one of the most popular web servers, and doesn't require much configuration out of the box. It should give you a web root (usually `/var/www`) that you can drop files (or entire repositories!) into and serve them to yourself.
 
-e.g. if you cloned the repo into this directory using the command above, you should be able to visit: [http://localhost/WebTechCrashCourse]()) and see "Hello, World", courtesy of our `index.html` file.
+e.g. if you cloned the repo into this directory using the command above, you should be able to visit: [http://localhost/WebTechCrashCourse](http://localhost/WebTechCrashCourse)) and see "Hello, World", courtesy of our `index.html` file.
 
+## Mission \#4 - TODO
+
+Now you should be able to get hold of any project, and run it on your server.
+
+What next?

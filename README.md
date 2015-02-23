@@ -15,7 +15,7 @@ So, create an account for Github. Find out how to **fork** this repository. Do t
 - Note the special characters and what they represent (such as this bullet-point list for example, or the bold phrases above).
 - What's the difference between a single `#`, a double `#` and a `#` preceeded by a `\`? You can either look it up or work it out logically. Or ask, if you're stuck! (that goes for all points)
 - What would the html equivilent of each of these be? One example: a `**` in Markdown makes things bold, which is the equivent of the `<strong>` tag.
-- Give up? How about using the inspector, or developer's console in your browser? You should be able to point at an element or sentence on the page, right click, inspect element, and see the html statements behind it. Ask if you're not sure how to get this feature, it's very useful and worth experimenting with. I recommend Chrome, followed by Firefox/Safari as the best browsers for development.
+- Give up? How about using the inspector, or developer's console in your browser? You should be able to point at an element or sentence on the page, right click, inspect element, and see the html statements behind it. Ask if you're not sure how to get this feature, it's very useful and worth experimenting with. I recommend **Google Chrome/Chromium**, followed by **Firefox/Safari** as the best browsers for development.
 
 ## Mission \#3 - Software
 
@@ -53,8 +53,17 @@ And look at the pretty colors! For bonus points, what is the value of `stdOut` a
 
 There's graphical clients available, but to understand the basics better, I'd suggest the command-line binary. **Warning! Kinda advanced.. but worth it IMHO. Ask for help here!**
 
-If you get it working, you should be able to clone this repository, and get a local copy on your machine.
+If you get it working, you should be able to clone this repository, and get a local copy on your machine. See the git clone url on this repository, e.g.
+
+```bash
+git clone git@github.com:AppSynergy/WebTechCrashCourse.git
+```
+
+Will create a new folder called `WebTechCrashCourse`, containing this project.
 
 ### A Web Server
 
-**Apache2** is one of the most popular web servers, and doesn't require much configuration out of the box. It should give you a web root (usually `/var/www`) that you can drop files (or entire repositories!) into and serve them to yourself. (e.g. http://localhost/name-of-file)
+**Apache2** is one of the most popular web servers, and doesn't require much configuration out of the box. It should give you a web root (usually `/var/www`) that you can drop files (or entire repositories!) into and serve them to yourself.
+
+e.g. if you cloned the repo into this directory using the command above, you should be able to visit: [http://localhost/WebTechCrashCourse]()) and see "Hello, World", courtesy of our `index.html` file.
+
